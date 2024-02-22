@@ -10,10 +10,10 @@ import java.util.Random;
 import javax.imageio.ImageIO;
 
 /**
- * 
- * @author proussille
  * La classe Utils fournit des méthodes utilitaires pour diverses opérations génériques.
  * Elle offre des fonctionnalités telles que le chargement d'images, le mélange de tableaux, etc.
+ *
+ * @author proussille
  */
 public class Utils {
 
@@ -44,7 +44,7 @@ public class Utils {
      * @param tab Le tableau à mélanger.
      * @param seed La graine utilisée pour le mélange.
      * @return Un nouveau tableau contenant les éléments mélangés.
-     * 
+     *
      * @author philibert roquart, fainéant
      */
     public static int[] melanger(int[] tab, long seed) {
@@ -63,7 +63,7 @@ public class Utils {
      * @param width Le premier nombre.
      * @param height Le deuxième nombre.
      * @return Le plus petit des deux nombres.
-     * 
+     *
      * @author philibert roquart, fainéant
      */
     public static int min(int width, int height) {
@@ -75,7 +75,7 @@ public class Utils {
      * Lit le contenu d'un fichier texte et le retourne sous forme de chaîne de caractères.
      * @param cheminFichier Le chemin vers le fichier à lire.
      * @return Le contenu du fichier lu sous forme de chaîne de caractères.
-     * 
+     *
      * Cette fonction n'est pas commentée, on la verra en Java Avancé.
      */
     public static String lireContenuFichier(String cheminFichier) {
@@ -91,6 +91,5 @@ public class Utils {
         }
 
         return contenu.toString();
-    }    
+    }
 }
-

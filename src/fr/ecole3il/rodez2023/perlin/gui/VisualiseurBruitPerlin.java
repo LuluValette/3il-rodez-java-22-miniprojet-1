@@ -18,9 +18,11 @@ import fr.ecole3il.rodez2023.perlin.gui.ImageBruit;
 import fr.ecole3il.rodez2023.perlin.math.BruitPerlin2D;
 
 /**
+ * Classe représentant une fenêtre pour générer des images de bruit de Perlin.
+ * Elle permet de spécifier la graine, la résolution et de générer des images en fonction de ces paramètres.
+ * Elle offre également la possibilité d'avancer dans le temps pour animer le bruit.
  *
  * @author proussille
- * Classe représentant une fenêtre pour générer des images de bruit de Perlin.
  */
 public class VisualiseurBruitPerlin extends JFrame {
 
@@ -110,15 +112,12 @@ public class VisualiseurBruitPerlin extends JFrame {
             // Utilise la résolution par défaut si la valeur entrée n'est pas valide
         }
 
+        // Création d'une instance de BruitPerlin2D avec la graine et la résolution spécifiées
+        BruitPerlin2D perlinNoise = new BruitPerlin2D(seed, resolution);
+        noiseImage = new ImageBruit(perlinNoise);
 
-        ////////// CODE À MODIFIER
-        /**@param Papin --> PerlinPapin ?? Objet pour initialiser l'objet ImageBruit */
-        BruitPerlin2D PaPin=new BruitPerlin2D(seed, resolution);
-        noiseImage = new ImageBruit(PaPin);
-
-        ////////// FIN CODE À MODIFIER
-        tickImageButton.setEnabled(true); // Désactiver le bouton initialement
-        tickImage();
+        tickImageButton.setEnabled(true); // Activer le bouton pour avancer dans le bruit
+        tickImage(); // Mettre à jour l'image initiale
     }
 
     /**

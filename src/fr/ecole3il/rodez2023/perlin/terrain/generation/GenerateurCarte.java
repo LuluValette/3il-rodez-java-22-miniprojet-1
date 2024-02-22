@@ -5,10 +5,16 @@ import fr.ecole3il.rodez2023.perlin.terrain.elements.Terrain;
 /**
  * Cette classe abstraite représente un générateur de carte utilisant la méthode Perlin
  * pour générer un tableau de terrains en fonction d'une graine.
+ *
+ * Elle fournit une méthode pour générer une carte représentée par un tableau de terrains
+ * en utilisant la méthode Perlin.
+ * Elle définit également une méthode abstraite pour générer un terrain spécifique à une position donnée.
+ * La classe contient aussi une méthode pour obtenir la graine utilisée pour la génération de la carte.
+ *
  * @author proussille
  */
 public abstract class GenerateurCarte {
-
+    // Attribut pour stocker la graine utilisée pour la génération de la carte
     private final long graine;
 
     /**
@@ -28,9 +34,12 @@ public abstract class GenerateurCarte {
      * @return Un tableau bidimensionnel de terrains représentant la carte générée.
      */
     public Terrain[][] genererCarte(int largeur, int hauteur) {
+        // Création du tableau de terrains pour représenter la carte
         Terrain[][] terrains = new Terrain[largeur][hauteur];
+        // Boucle pour générer les terrains pour chaque position dans la carte
         for (int i = 0; i < largeur; i++) {
             for (int j = 0; j < hauteur; j++) {
+                // Appel de la méthode abstraite genererTerrain pour générer le terrain à la position (i, j)
                 terrains[i][j] = genererTerrain(i, j, largeur, hauteur);
             }
         }

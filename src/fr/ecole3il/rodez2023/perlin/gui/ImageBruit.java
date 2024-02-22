@@ -6,10 +6,10 @@ import fr.ecole3il.rodez2023.perlin.Utils;
 import fr.ecole3il.rodez2023.perlin.math.Bruit2D;
 
 /**
- * 
- * @author proussille
- * La classe ImageBruit génère une image représentant du bruit en utilisant un générateur de bruit 2D.
+ * Classe ImageBruit permettant de générer une image représentant du bruit en utilisant un générateur de bruit 2D.
  * Elle crée une image en noir et blanc basée sur les valeurs de bruit générées.
+ *
+ * @author proussille
  */
 public class ImageBruit {
 
