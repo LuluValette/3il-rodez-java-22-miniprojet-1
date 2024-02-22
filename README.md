@@ -39,3 +39,5 @@ Points difficiles :
 ****
 Autres choses :
 - J'ai apprécié faire ce projet, car il m'a permis de comprendre la création de maps pour des jeux ainsi que d'effets pour les films. De plus, ce projet m'a permis de comprendre comment avancer sur le projet Java/gestion de projet.
+- J'ai fait mon code sous la dernière version de Java.
+- Sur mon ordinateur, les générations de carte ne marchent pas.
