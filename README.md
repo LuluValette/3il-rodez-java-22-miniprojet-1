@@ -1,7 +1,7 @@
 ---
 titre: Java
 sous-titre: Miniprojet 1 - Génération de terrain aléatoire en utilisant le bruit de Perlin
-auteur: Philippe \textsc{Roussille}
+auteur: Philippe ROUSSILLE, Luc VALETTE
 date: 3iL 1A 2023
 ---
 
