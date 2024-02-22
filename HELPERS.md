@@ -1,6 +1,6 @@
-Arthur LENNE --> aide pour la compréhension du sujet et la création du code en général
+**Arthur LENNE** → Aide pour la compréhension du sujet et la création + correction du code en général
 
-Enzo FAVRET --> aide pour la création du code
+**Enzo FAVRET** → Aide pour la création du code
 
-Romain ROSSI --> aide pour la création de la table typeTerrain
+**Romain ROSSI** → Aide pour la création de la table typeTerrain
 
