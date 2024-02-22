@@ -25,4 +25,17 @@ date: 3iL 1A 2023
 ****
 **Question :** pourquoi sortir, selon vous, ce bout d'algorithme de la classe ?
 
-**Selon moi, il faut sortir ce bout d'algorithme car ce n'est pas à cette classe de déterminer le type de terrain.**
+**Selon moi, il faut sortir ce bout d'algorithme, car ce n'est pas à cette classe de déterminer le type de terrain.**
+****
+****
+Réalisations :
+ - J'ai pu céer et modifier les différentes classes demandées, je n'ai cependant pas fait les bonus.
+****
+****
+Points difficiles :
+- J'ai trouvé difficile de reprendre un code que je n'ai pas créé, j'ai passé un moment à m'imprégner du code afin de le comprendre et le modifier.
+- N'ayant jamais fait de Java avant cette année, j'ai eu un peu de mal au niveau de la syntaxe.
+****
+****
+Autres choses :
+- J'ai apprécié faire ce projet, car il m'a permis de comprendre la création de maps pour des jeux ainsi que d'effets pour les films. De plus, ce projet m'a permis de comprendre comment avancer sur le projet Java/gestion de projet.
